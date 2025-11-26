@@ -29,7 +29,6 @@ export const createNewProperty = () => ({
     suitableCredit: false,
     offersFinancing: false,
     suitableProfessional: false,
-    location: { lat: 0, lng: 0 },
     images: [], // Array of Base64 strings
 });
 
@@ -38,6 +37,6 @@ export const initialReportData = {
     suggestedSalePrice: 0,
     clientName: '',
     propertyAddress: '',
-    brokerName: 'Daniel Guindani',
+    brokerName: 'Gabriel Lopez',
     brokerLicense: 'CMCPDJLP 7463',
 };

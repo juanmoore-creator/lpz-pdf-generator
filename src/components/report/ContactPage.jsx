@@ -8,8 +8,8 @@ const ContactPage = ({ data }) => {
             <div style={{ marginTop: '40px', fontSize: '14pt' }}>
                 <p><strong>Corredor Responsable:</strong> {data.brokerName}</p>
                 <p><strong>Matrícula:</strong> {data.brokerLicense}</p>
-                <p><strong>Dirección:</strong> Calle Falsa 123, Ciudad</p>
-                <p><strong>Teléfono:</strong> (011) 1234-5678</p>
+                <p><strong>Dirección:</strong> Calle 48 N°928/930 e 13 y 14, La Plata, Buenos Aires</p>
+                <p><strong>Teléfono:</strong> 1234-5678</p>
                 <p><strong>Email:</strong> contacto@lopezbienesraices.com</p>
                 <p><strong>Web:</strong> www.lopezbienesraices.com</p>
             </div>

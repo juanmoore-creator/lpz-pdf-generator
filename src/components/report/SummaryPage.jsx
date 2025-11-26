@@ -40,6 +40,7 @@ const SummaryPage = ({ properties }) => {
                                     padding: '2px 6px',
                                     borderRadius: '4px',
                                     fontSize: '10px',
+                                    fontWeight: '600',
                                     background: p.status === 'Activa' ? '#e6f4ea' : '#fce8e6',
                                     color: p.status === 'Activa' ? '#1e8e3e' : '#c5221f'
                                 }}>

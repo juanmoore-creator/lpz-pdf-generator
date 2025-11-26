@@ -4,7 +4,6 @@ import CoverPage from './report/CoverPage';
 import SummaryPage from './report/SummaryPage';
 import PropertyDetailPage from './report/PropertyDetailPage';
 import AveragesPage from './report/AveragesPage';
-import MapPage from './report/MapPage';
 import PriceSuggestionPage from './report/PriceSuggestionPage';
 import ContactPage from './report/ContactPage';
 
@@ -18,7 +17,6 @@ const ReportView = () => {
     return (
         <div id="report-view">
             <CoverPage data={reportData} />
-            <MapPage properties={filledProperties} />
             <SummaryPage properties={filledProperties} />
 
             {filledProperties.map((prop, index) => (

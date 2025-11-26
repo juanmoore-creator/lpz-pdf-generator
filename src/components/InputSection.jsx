@@ -36,6 +36,22 @@ const InputSection = () => {
                         />
                     </div>
                     <div className="form-group">
+                        <label>Corredor Inmobiliario</label>
+                        <input
+                            value={reportData.brokerName}
+                            onChange={(e) => updateReportData('brokerName', e.target.value)}
+                            placeholder="Nombre del Corredor"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label>Matrícula / Licencia</label>
+                        <input
+                            value={reportData.brokerLicense}
+                            onChange={(e) => updateReportData('brokerLicense', e.target.value)}
+                            placeholder="Ej: CMCPDJLP 7463"
+                        />
+                    </div>
+                    <div className="form-group">
                         <label>Precio Sugerido Publicación (U$S)</label>
                         <input
                             type="number"
@@ -58,7 +74,7 @@ const InputSection = () => {
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
                     <h3>Propiedades Comparables ({properties.length})</h3>
                     <button onClick={addProperty} className="btn-primary">
-                        ➕ Añadir Propiedad Comparable
+                        ➕ Añadir Propiedad
                     </button>
                 </div>
 
