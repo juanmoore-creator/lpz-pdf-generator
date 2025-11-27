@@ -66,10 +66,6 @@ const PropertyForm = ({ property, onChange, index, isModal }) => {
                     <input type="number" name="bathrooms" value={property.bathrooms} onChange={handleChange} />
                 </div>
                 <div className="form-group">
-                    <label>Toilettes</label>
-                    <input type="number" name="toilettes" value={property.toilettes} onChange={handleChange} />
-                </div>
-                <div className="form-group">
                     <label>Cochera</label>
                     <select name="garage" value={property.garage} onChange={handleChange}>
                         <option value={false}>No</option>
